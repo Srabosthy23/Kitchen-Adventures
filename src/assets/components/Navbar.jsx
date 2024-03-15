@@ -1,11 +1,11 @@
 const Navbar = () => {
     return (
         <div className="container mx-auto mt-5">
-            <div className="flex justify-between items-center bg-base-100">
+            <div className="flex lg:justify-between items-center bg-base-100">
                 <div className="">
                     <a className="text-2xl font-bold">Kitchen Adventures</a>
                 </div>
-                <div className="space-x-10">
+                <div className="lg:space-x-10 flex flex-col lg:flex-row ">
                     <a>Home</a>
                     <a>Recipies</a>
                     <a>About</a>
