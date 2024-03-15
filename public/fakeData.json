@@ -1,107 +1,86 @@
 [
     {
-      "recipe_id": 1,
-      "recipe_name": "Lemon Garlic Roasted Chicken",
-      "recipe_image": "https://i.ibb.co/W6YTCFG/top-view-christmas-dinner.jpg",
-      "short_description": "Juicy chicken marinated in zesty lemon and garlic, roasted to perfection.",
+      "id": 1,
+      "name": "Lemon Garlic Roasted Chicken",
+      "image": "https://i.ibb.co/W6YTCFG/top-view-christmas-dinner.jpg",
+      "description": "Juicy chicken marinated in zesty lemon and garlic, roasted to perfection.",
       "ingredients": [
         "1.5 kg chicken",
         "4 cloves garlic, minced",
         "2 lemons, juiced and zested",
-        "2 tbsp olive oil",
-        "Salt and pepper to taste"
+        "2 tbsp olive oil"
       ],
-      "preparing_time": "1 hour",
-      "calories": "380 calories"
+      "time": "60",
+      "calories": "380"
     },
     {
-      "recipe_id": 2,
-      "recipe_name": "Caprese Salad",
-      "recipe_image": "https://i.ibb.co/6nR9Jv4/salad-with-cheese-tomatoes.jpg",
-      "short_description": "A refreshing Italian salad featuring ripe tomatoes, fresh mozzarella, and basil leaves.",
+      "id": 2,
+      "name": "Caprese Salad",
+      "image": "https://i.ibb.co/t2WX0VC/alina-chernysheva-oj2h-Bf5-TOFM-unsplash.jpg",
+      "description": "A refreshing Italian salad featuring ripe tomatoes, fresh mozzarella, and basil leaves.",
       "ingredients": [
         "3 large tomatoes, sliced",
         "200g fresh mozzarella, sliced",
         "1 cup fresh basil leaves",
-        "2 tbsp balsamic vinegar",
-        "2 tbsp olive oil",
-        "Salt and pepper to taste"
+        "2 tbsp balsamic vinegar"
       ],
-      "preparing_time": "15 minutes",
-      "calories": "180 calories"
+      "time": "15",
+      "calories": "180"
     },
     {
-      "recipe_id": 3,
-      "recipe_name": "Vegetable Stir-Fry",
-      "recipe_image": "https://i.ibb.co/bbtW1j7/fried-vegetables-with-sauce-pan.jpg",
-      "short_description": "A colorful and nutritious stir-fry featuring an array of fresh vegetables in a savory sauce.",
+      "id": 3,
+      "name": "Vegetable Stir-Fry",
+      "image": "https://i.ibb.co/bbtW1j7/fried-vegetables-with-sauce-pan.jpg",
+      "description": "A colorful and nutritious stir-fry featuring an array of fresh vegetables in a savory sauce.",
       "ingredients": [
         "1 red bell pepper, sliced",
         "1 yellow bell pepper, sliced",
         "1 green bell pepper, sliced",
-        "1 onion, sliced",
-        "200g mushrooms, sliced",
-        "2 carrots, julienned",
-        "120ml soy sauce",
-        "2 cloves garlic, minced",
-        "2 tbsp sesame oil",
-        "1 tbsp cornstarch",
-        "1 tbsp vegetable oil"
+        "1 onion, sliced"
       ],
-      "preparing_time": "25 minutes",
-      "calories": "220 calories"
+      "time": "25",
+      "calories": "220"
     },
     {
-      "recipe_id": 4,
-      "recipe_name": "Spaghetti Carbonara",
-      "recipe_image": "https://i.ibb.co/bKSLH6G/sebastian-coman-photography-m-Vw-Qrsnnb-Hg-unsplash.jpg",
-      "short_description": "Classic Italian pasta dish with creamy egg sauce, crispy bacon, and Parmesan cheese.",
+      "id": 4,
+      "name": "Spaghetti Carbonara",
+      "image": "https://i.ibb.co/bKSLH6G/sebastian-coman-photography-m-Vw-Qrsnnb-Hg-unsplash.jpg",
+      "description": "Classic Italian pasta dish with creamy egg sauce, crispy bacon, and Parmesan cheese.",
       "ingredients": [
         "400g spaghetti",
         "200g pancetta or bacon, diced",
         "3 large eggs",
-        "100g grated Parmesan cheese",
-        "2 cloves garlic, minced",
-        "Salt and black pepper to taste",
-        "2 tbsp olive oil"
+        "100g grated Parmesan cheese"
       ],
-      "preparing_time": "20 minutes",
-      "calories": "450 calories"
+      "time": "20",
+      "calories": "450"
     },
     {
-      "recipe_id": 5,
-      "recipe_name": "Mango Avocado Salsa",
-      "recipe_image": "https://i.ibb.co/qywrnSF/daniel-lloyd-blunk-fernandez-Jf-MJNo-NYazo-unsplash.jpg",
-      "short_description": "A vibrant salsa bursting with fresh mango, creamy avocado, and zesty lime juice.",
+      "id": 5,
+      "name": "Mango Avocado Salsa",
+      "image": "https://i.ibb.co/qywrnSF/daniel-lloyd-blunk-fernandez-Jf-MJNo-NYazo-unsplash.jpg",
+      "description": "A vibrant salsa bursting with fresh mango, creamy avocado, and zesty lime juice.",
       "ingredients": [
         "2 ripe mangoes, diced",
         "2 ripe avocados, diced",
         "1/2 red onion, finely chopped",
-        "1 jalapeño pepper, seeded and minced",
-        "1/4 cup fresh cilantro, chopped",
-        "2 tbsp lime juice",
-        "Salt and pepper to taste"
+        "1 jalapeño pepper, seeded and minced"
       ],
-      "preparing_time": "10 minutes",
-      "calories": "120 calories"
+      "time": "10",
+      "calories": "120"
     },
     {
-      "recipe_id": 6,
-      "recipe_name": "Quinoa Salad with Chickpeas and Feta",
-      "recipe_image": "https://i.ibb.co/x6bJpRv/monika-grabkowska-p-Cx-Jv-Se-SB5-A-unsplash.jpg",
-      "short_description": "A protein-packed salad featuring fluffy quinoa, hearty chickpeas, and tangy feta cheese.",
+      "id": 6,
+      "name": "Quinoa Salad with Chickpeas",
+      "image": "https://i.ibb.co/x6bJpRv/monika-grabkowska-p-Cx-Jv-Se-SB5-A-unsplash.jpg",
+      "description": "A protein-packed salad featuring fluffy quinoa, hearty chickpeas, and tangy feta cheese.",
       "ingredients": [
         "1 cup quinoa, cooked",
         "1 can (400g) chickpeas, drained and rinsed",
         "1 red bell pepper, diced",
-        "1 cucumber, diced",
-        "100g feta cheese, crumbled",
-        "1/4 cup fresh parsley, chopped",
-        "2 tbsp lemon juice",
-        "2 tbsp olive oil",
-        "Salt and pepper to taste"
+        "1 cucumber, diced"
       ],
-      "preparing_time": "20 minutes",
-      "calories": "280 calories"
+      "time": "20",
+      "calories": "280"
     }
   ]
