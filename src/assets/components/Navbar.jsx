@@ -1,3 +1,6 @@
+import { CiSearch } from "react-icons/ci";
+import { FaRegUserCircle } from "react-icons/fa";
+
 const Navbar = () => {
     return (
         <div className="container mx-auto mt-5">
@@ -12,12 +15,13 @@ const Navbar = () => {
                     <a>Search</a>
                 </div>
                 <div className="flex gap-3 items-center">
-                    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto rounded-full" />
+                    <div className="flex items-center justify-center gap-2 relative">
+                        <CiSearch className="absolute left-2" />
+                        <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto rounded-full pl-8" />
+                    </div>
 
-                    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                        <div className="w-10 rounded-full">
-                            <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                        </div>
+                    <div className="p-2 rounded-full bg-green-400">
+                        <FaRegUserCircle className="text-3xl "/>
                     </div>
                 </div>
             </div>
