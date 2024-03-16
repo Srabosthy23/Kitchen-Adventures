@@ -1,86 +1,98 @@
 [
-    {
-      "id": 1,
-      "name": "Lemon Garlic Roasted Chicken",
-      "image": "https://i.ibb.co/W6YTCFG/top-view-christmas-dinner.jpg",
-      "description": "Juicy chicken marinated in zesty lemon and garlic, roasted to perfection.",
-      "ingredients": [
-        "1.5 kg chicken",
-        "4 cloves garlic, minced",
-        "2 lemons, juiced and zested",
-        "2 tbsp olive oil"
-      ],
-      "time": "60",
-      "calories": "380"
-    },
-    {
-      "id": 2,
-      "name": "Caprese Salad",
-      "image": "https://i.ibb.co/t2WX0VC/alina-chernysheva-oj2h-Bf5-TOFM-unsplash.jpg",
-      "description": "A refreshing Italian salad featuring ripe tomatoes, fresh mozzarella, and basil leaves.",
-      "ingredients": [
-        "3 large tomatoes, sliced",
-        "200g fresh mozzarella, sliced",
-        "1 cup fresh basil leaves",
-        "2 tbsp balsamic vinegar"
-      ],
-      "time": "15",
-      "calories": "180"
-    },
-    {
-      "id": 3,
-      "name": "Vegetable Stir-Fry",
-      "image": "https://i.ibb.co/bbtW1j7/fried-vegetables-with-sauce-pan.jpg",
-      "description": "A colorful and nutritious stir-fry featuring an array of fresh vegetables in a savory sauce.",
-      "ingredients": [
-        "1 red bell pepper, sliced",
-        "1 yellow bell pepper, sliced",
-        "1 green bell pepper, sliced",
-        "1 onion, sliced"
-      ],
-      "time": "25",
-      "calories": "220"
-    },
-    {
-      "id": 4,
-      "name": "Spaghetti Carbonara",
-      "image": "https://i.ibb.co/bKSLH6G/sebastian-coman-photography-m-Vw-Qrsnnb-Hg-unsplash.jpg",
-      "description": "Classic Italian pasta dish with creamy egg sauce, crispy bacon, and Parmesan cheese.",
-      "ingredients": [
-        "400g spaghetti",
-        "200g pancetta or bacon, diced",
-        "3 large eggs",
-        "100g grated Parmesan cheese"
-      ],
-      "time": "20",
-      "calories": "450"
-    },
-    {
-      "id": 5,
-      "name": "Mango Avocado Salsa",
-      "image": "https://i.ibb.co/qywrnSF/daniel-lloyd-blunk-fernandez-Jf-MJNo-NYazo-unsplash.jpg",
-      "description": "A vibrant salsa bursting with fresh mango, creamy avocado, and zesty lime juice.",
-      "ingredients": [
-        "2 ripe mangoes, diced",
-        "2 ripe avocados, diced",
-        "1/2 red onion, finely chopped",
-        "1 jalapeño pepper, seeded and minced"
-      ],
-      "time": "10",
-      "calories": "120"
-    },
-    {
-      "id": 6,
-      "name": "Quinoa Salad with Chickpeas",
-      "image": "https://i.ibb.co/x6bJpRv/monika-grabkowska-p-Cx-Jv-Se-SB5-A-unsplash.jpg",
-      "description": "A protein-packed salad featuring fluffy quinoa, hearty chickpeas, and tangy feta cheese.",
-      "ingredients": [
-        "1 cup quinoa, cooked",
-        "1 can (400g) chickpeas, drained and rinsed",
-        "1 red bell pepper, diced",
-        "1 cucumber, diced"
-      ],
-      "time": "20",
-      "calories": "280"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Lemon Garlic Roasted Chicken",
+    "image": "https://i.ibb.co/W6YTCFG/top-view-christmas-dinner.jpg",
+    "description": "Juicy chicken marinated in zesty lemon and garlic, roasted to perfection.",
+    "ingredients": [
+      "1.5 kg chicken",
+      "4 cloves garlic, minced",
+      "2 lemons, juiced and zested",
+      "2 tbsp olive oil",
+      "2 cloves garlic, minced",
+      "1 tsp dried oregano"
+    ],
+    "time": "60",
+    "calories": "380"
+  },
+  {
+    "id": 2,
+    "name": "Caprese Salad",
+    "image": "https://i.ibb.co/t2WX0VC/alina-chernysheva-oj2h-Bf5-TOFM-unsplash.jpg",
+    "description": "A refreshing Italian salad featuring ripe tomatoes, fresh mozzarella, and basil leaves.",
+    "ingredients": [
+      "3 large tomatoes, sliced",
+      "200g fresh mozzarella, sliced",
+      "1 cup fresh basil leaves",
+      "2 tbsp balsamic vinegar",
+      "2 tbsp balsamic vinegar",
+      "2 tbsp extra virgin olive oil"
+    ],
+    "time": "15",
+    "calories": "180"
+  },
+  {
+    "id": 3,
+    "name": "Vegetable Stir-Fry",
+    "image": "https://i.ibb.co/bbtW1j7/fried-vegetables-with-sauce-pan.jpg",
+    "description": "A colorful and nutritious stir-fry featuring an array of fresh vegetables in a savory sauce.",
+    "ingredients": [
+      "1 red bell pepper, sliced",
+      "1 yellow bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 onion, sliced",
+      "1 onion, sliced",
+      "200 g broccoli florets"
+    ],
+    "time": "25",
+    "calories": "220"
+  },
+  {
+    "id": 4,
+    "name": "Spaghetti Carbonara",
+    "image": "https://i.ibb.co/bKSLH6G/sebastian-coman-photography-m-Vw-Qrsnnb-Hg-unsplash.jpg",
+    "description": "Classic Italian pasta dish with creamy egg sauce, crispy bacon, and Parmesan cheese.",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or bacon, diced",
+      "3 large eggs",
+      "100 g grated Parmesan cheese",
+      "2 cloves garlic, minced",
+      "Salt and black pepper to taste"
+    ],
+    "time": "20",
+    "calories": "450"
+  },
+  {
+    "id": 5,
+    "name": "Mango Avocado Salsa",
+    "image": "https://i.ibb.co/qywrnSF/daniel-lloyd-blunk-fernandez-Jf-MJNo-NYazo-unsplash.jpg",
+    "description": "A vibrant salsa bursting with fresh mango, creamy avocado, and zesty lime juice.",
+    "ingredients": [
+      "2 ripe mangoes, diced",
+      "2 ripe avocados, diced",
+      "1/2 red onion, finely chopped",
+      "1 jalapeño pepper, seeded and minced",
+      "1/4 cup fresh cilantro, chopped",
+      "Juice of 2 limes"
+    ],
+    "time": "10",
+    "calories": "120"
+  },
+  {
+    "id": 6,
+    "name": "Quinoa Salad with Chickpeas",
+    "image": "https://i.ibb.co/x6bJpRv/monika-grabkowska-p-Cx-Jv-Se-SB5-A-unsplash.jpg",
+    "description": "A protein-packed salad featuring fluffy quinoa, hearty chickpeas, and tangy feta cheese.",
+    "ingredients": [
+      "1 cup quinoa, cooked",
+      "1 can (400g) chickpeas, drained and rinsed",
+      "1 red bell pepper, diced",
+      "1 cucumber, diced",
+      "1/4 cup red onion, finely chopped",
+      "1/4 cup fresh parsley, chopped"
+    ],
+    "time": "20",
+    "calories": "280"
+  }
+]

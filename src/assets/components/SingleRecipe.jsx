@@ -17,6 +17,8 @@ const SingleRecipe = ({recipe, handleCook}) => {
                     <li>{recipe.ingredients[1]}</li>
                     <li>{recipe.ingredients[2]}</li>
                     <li>{recipe.ingredients[3]}</li>
+                    <li>{recipe.ingredients[4]}</li>
+                    <li>{recipe.ingredients[5]}</li>
                   </ul>
 
                   <hr />

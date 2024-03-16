@@ -8,6 +8,8 @@ import SingleRecipe from "./assets/components/SingleRecipe"
 function App() {
 
   const [recipes, setRecipes] = useState([]);
+  const [cart, setCart] = useState([]);
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
     fetch("../public/fakeData.json")
@@ -15,10 +17,18 @@ function App() {
       .then(data => setRecipes(data))
   }, [])
 
-  const [cart, setCart] = useState([]);
-
+  
   const handleCook = (rcp) => {
-    setCart([...cart, rcp])
+    const isExist = cart.find(rcp2 => rcp2.id === rcp.id);
+
+    if (!isExist) {
+      setCart([...cart, rcp])
+      setCount(count+1)
+    }
+    else{
+      alert("toast korte hobe")
+    }
+
   }
 
 
@@ -46,7 +56,7 @@ function App() {
           </div>
           <div className="w-1/3">
             <div className="ml-4 lg:border p-3 rounded-2xl">
-              <h2 className="text-center font-bold text-xl mb-3">Want to Cook: <span>01</span></h2>
+              <h2 className="text-center font-bold text-xl mb-3">Want to Cook: <span>{count}</span></h2>
               <table className="table">
                 <thead>
                   <tr className="bg-base-200">
@@ -59,13 +69,13 @@ function App() {
                 <tbody>
                   {
                     cart.map((item, i) => (
-                        <tr key = {i}>
-                          <th>{i+1}</th>
-                          <td>{item.name}</td>
-                          <td>{item.time}</td>
-                          <td>{item.calories}</td>
-                          <th><button className="btn btn-accent rounded-full">Preparing</button></th>
-                        </tr>
+                      <tr key={i}>
+                        <th>{i + 1}</th>
+                        <td>{item.name}</td>
+                        <td>{item.time}</td>
+                        <td>{item.calories}</td>
+                        <th><button className="btn btn-accent rounded-full">Preparing</button></th>
+                      </tr>
                     ))
                   }
                 </tbody>
