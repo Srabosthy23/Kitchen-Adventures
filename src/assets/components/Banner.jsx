@@ -5,7 +5,7 @@ const Banner = () => {
                 <div className="text-center">
                     <h1 className="mb-5 text-5xl font-bold text-white">Discover an exceptional cooking class tailored for you!</h1>
                     <p className="text-white">Embark on a culinary journey filled with excitement and discovery with our Kitchen Adventures recipes. From the sizzle of exotic spices to the comforting aroma of familiar favorites, each dish is a passport to new flavors and experiences. </p>
-                    <div className="space-x-5 mt-10">
+                    <div className="space-x-5 mt-5 lg:mt-10">
                         <button className="btn btn-accent rounded-full font-bold">Explore Now</button>
                         <button className="btn btn-ghost text-white border border-white rounded-full font-bold">Our Feedback</button>
                     </div>
