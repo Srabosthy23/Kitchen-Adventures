@@ -3,6 +3,8 @@ import Banner from "./assets/components/Banner"
 import Navbar from "./assets/components/Navbar"
 import { useState } from "react"
 import SingleRecipe from "./assets/components/SingleRecipe"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -26,7 +28,8 @@ function App() {
       setCount(count+1)
     }
     else{
-      alert("toast korte hobe")
+      // alert("toast korte hobe")
+      toast.error("Already Exist");
     }
 
   }
@@ -34,6 +37,7 @@ function App() {
 
   return (
     <>
+       <ToastContainer theme = "light"/>
       <Navbar></Navbar>
       <Banner></Banner>
 
@@ -44,7 +48,7 @@ function App() {
         </div>
         {/* cards and table */}
         <div className="mt-10 lg:flex justify-between">
-          {/* left */}
+          {/* card container */}
           <div className="w-2/3 lg:grid grid-cols-2 gap-4">
             {
               recipes.map(recipe => <SingleRecipe
